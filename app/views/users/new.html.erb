@@ -1,0 +1,49 @@
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <span class="navbar-brand op-logo">NEWS LETTERS</span>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <%= link_to "OnePiece", "/", class:"nav-link" %>
+            </li>
+            <li class="nav-item">
+              <%= link_to "Drawing", "/landing_pages/draw", class:"nav-link" %>
+            </li>
+            <li class="nav-item">
+              <%= link_to "Space", "/landing_pages/space", class:"nav-link" %>
+            </li>
+      </ul>
+
+      <span class="navbar-text">
+        
+      </span>
+
+    </div>
+</nav>
+<div class="container">
+    <h2 id="subscribe">Subscribe to our newsletters</h2>
+
+    <%= form_for @user, url: {action: "create"} do |f| %>
+
+    <div class="row">
+        <div class="col form-group name">
+            <%=f.label :username %>
+        <%=f.text_field :username, placeholder: "Your name" %>
+    </div>
+
+
+    <div class="col form-group mail">
+        <%=f.label :email %>
+        <%=f.text_field :email, placeholder: "ex@email.com" %>
+    </div>	
+</div>
+
+<div class="validation form-group"> 
+	 <%= f.submit class: "btn btn-info btn-default" %>
+</div>
+<%end%>
+</div>

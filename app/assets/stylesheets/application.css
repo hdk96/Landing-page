@@ -1,0 +1,52 @@
+.navbar-brand{
+	margin: 0;
+	padding-right: 100px 33px !important;
+}
+.op-logo{
+	width:10%;
+}
+.logo-draw{
+	width:3%;
+}
+.space-logo{
+	width:2%;
+}
+.banner{
+	background-repeat:no-repeat;
+	background-size: 1350px;
+	height: 590px;
+	text-align: center;
+}
+.banner-op{
+	background-image: url(https://s33.postimg.cc/k9edl84rj/luffy-g2nd.jpg);
+}
+.banner-draw{
+	background-image: url(https://s33.postimg.cc/cqdbcyisv/draw.jpg);
+}
+.banner-space{
+	background-image: url(https://s33.postimg.cc/6s43gqk5r/space.jpg);
+}
+#welcome{
+	font-size: 80px;
+	font-weight: bold;
+}
+.banner-title{
+	padding-top: 300px;
+}
+a:hover {
+    background-color: #D10707;
+}
+
+.container{
+	text-align: center;
+}
+#subscribe{
+	margin-top: 300px;
+	margin-bottom: 50px;
+}
+.name{
+	border-radius: 3px;
+}
+.mail{
+	border-radius: 3px;
+}
