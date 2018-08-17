@@ -1,12 +1,2 @@
-# SUPER README
-
-* voici le lien: https://jamaidecentrois.herokuapp.com/
-
-* -------------------------------------------------
-* chois des landing page : public viser
-
-# Landing page one piece
-# Landing page drawing
-# Landing page space
-* -------------------------------------------------
-
+Lien vers la version en ligne sur Heroku => https://my-langingpage.herokuapp.com/ 
+ 
